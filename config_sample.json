@@ -1,0 +1,6 @@
+{
+  "AWS_ID": "your AWS ID",
+  "AWS_SECRET": "your AWS Secret",
+  "BUCKET_NAME": "a S3 bucket name",
+  "cdnDomain": "optionally an domain name to replace the s3 bucket domain (ie: example.com) - leave out http & slashes"
+}

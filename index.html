@@ -1,0 +1,36 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>S3 File Dropper</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    <style>
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #8a8a8a;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body id="main" style="background: white;">
+<h1>S3 File Dropper</h1>
+<h2 id="progress"></h2>
+<h3>Drop file(s) anywhere on this page.</h3>
+<p>Uploaded file links will appear here. Click to copy the url to the clipboard.<br>
+    <ul id="uploadedList">
+
+</ul>
+</p>
+<div class="footer">
+<p>
+   Node: <script>document.write(process.versions.node)</script>,
+    Chrome: <script>document.write(process.versions.chrome)</script>,
+    and Electron: <script>document.write(process.versions.electron)</script>.
+</p>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
