@@ -14,3 +14,6 @@ Setup:
 
 **Warning:** By default I have the ACL to be public: ACL: 'public-read' - **This will make your uploaded files public!** -Change if you don't want this.
 
+Demo:
+
+![S3 Dropper Demo](s3-file-dropper-demo.gif)
