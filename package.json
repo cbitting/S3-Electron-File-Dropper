@@ -21,7 +21,9 @@
   },
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+        "icon": "./appicons/icons/win/icon.ico"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-zip",
